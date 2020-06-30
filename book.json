@@ -1,0 +1,23 @@
+{
+  "plugins": [
+    "fontsettings",
+    "mathjax@https://github.com/algorithm-archivists/plugin-mathjax",
+    "bibtex-cite",
+    "wordcount",
+    "api-language-selector@https://github.com/algorithm-archivists/gitbook-plugin-api-language-selector.git",
+    "include-codeblock",
+    "ga",
+    "bulk-redirect",
+    "prism",
+    "-highlight"
+  ],
+  "pluginsConfig": {
+    "ga": {
+      "token": "UA-XXXX-Y"
+    },
+    "bulk-redirect": {
+      "basepath": "/",
+      "redirectsFile": "redirects.json"
+    }
+  }
+}
